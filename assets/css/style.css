@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SwissSignCircularWeb-Regular', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'SwissSignCircularWeb-Bold', sans-serif;
+}
+
+p {
+    font-family: 'SwissSignCircularWeb-Regular', sans-serif;
+}
+
+@font-face {
+    font-family: 'SwissSignCircularWeb-Regular';
+    src: url('../assets/fonts/SwissSignCircularWeb-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SwissSignCircularWeb-Bold';
+    src: url('../assets/fonts/SwissSignCircularWeb-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
